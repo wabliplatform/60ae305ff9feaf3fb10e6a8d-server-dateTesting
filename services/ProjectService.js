@@ -22,6 +22,7 @@ const createproject = ({ project }) => new Promise(
     }
   },
 );
+
 /**
 * Delete the element
 *
@@ -42,6 +43,7 @@ const deleteproject = ({ projectId }) => new Promise(
     }
   },
 );
+
 /**
 * Get all the data
 *
@@ -61,6 +63,7 @@ const getAllproject = () => new Promise(
     }
   },
 );
+
 /**
 * Get the element
 *
@@ -82,6 +85,7 @@ const getproject = ({ projectId }) => new Promise(
     }
   },
 );
+
 /**
 * Updates the element
 *
@@ -103,6 +107,7 @@ const updateproject = ({ projectId, project }) => new Promise(
     }
   },
 );
+
 
 module.exports = {
   createproject,
